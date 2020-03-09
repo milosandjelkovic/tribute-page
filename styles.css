@@ -161,13 +161,13 @@ a:active {
 	
 	.soccer-ball-decoration {
 		position: relative;
+		top: 2em;
+		left: 48%;
 		display: inline-block;
 		margin: 0;
 		padding: 0;
 		width: 2em;
 		height: 2em;
-		left: 48%;
-		top: 2.3em;
 	}
 	
 	#img-div img {
