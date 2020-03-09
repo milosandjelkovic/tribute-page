@@ -1,0 +1,185 @@
+<link href="https://fonts.googleapis.com/css?family=PT+Sans|PT+Sans+Narrow:700&display=swap&subset=cyrillic,cyrillic-ext" rel="stylesheet">
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+html {
+	height: 100%;
+}
+
+body {
+	margin: 0;
+	height: 100%;
+	background: #dfdcd9;
+	color: #6f777a;
+	font-family: "PT Sans", Arial, Helvetica, sans-serif;
+	font-size: 1em;
+}
+
+::selection{
+	background: rgba(255, 171, 50, .99);
+	color: #fff;
+}
+
+#main {
+	margin: 0 auto;
+	padding: 1.5em 5em;
+	padding-top: 0;
+	width: 35em;
+	min-height: 100%;
+	background: #fff;
+	background-image: url('https://www.dropbox.com/s/2gtnyidxw77lwv7/border-diagonal-left.png?raw=1'), url('https://www.dropbox.com/s/jvma9g37eev2ry9/border-diagonal-right.png?raw=1');
+	background-repeat: repeat-y, repeat-y;
+	background-position: left .5em top, right .5em top;
+	border-left: 1px solid #b0b0b0;
+	border-right: 1px solid #b0b0b0;
+	font-size: 1.3em;
+	line-height: 1.5em;
+}
+
+.soccer-ball-decoration {
+	position: relative;
+	left: 48%;
+	display: inline-block;
+	top: 2.8em;
+	margin: 0;
+	padding: 0;
+	width: 2.5em;
+	height: 2.5em;
+}
+
+h1{
+	padding: 1em 0;
+	background-image: url('https://www.dropbox.com/s/l5xgknf2yl2lrvw/border-dot.png?raw=1'), url('https://www.dropbox.com/s/l5xgknf2yl2lrvw/border-dot.png?raw=1');
+	background-position: top, bottom;
+	background-repeat: repeat-x, repeat-x;
+	font-family: "PT Sans Narrow", Arial, Helvetica, sans-serif;
+	font-size: 1.7em;
+	font-weight: bold;
+	text-align: center;
+	text-transform: uppercase;
+	line-height: 1.895em;
+	color: #3f474a;
+}
+
+#img-div img {
+	display: block;
+	margin: 0 auto;
+	padding: 2.5em 0;
+	max-width: 15%;
+	max-height: 15%;
+}
+
+#img-caption {
+	display: none;
+	text-align: center;
+}
+
+h2{
+	margin-bottom: 0.857em;
+	padding-top: 1.143em;
+	font-size: 1.750em;
+	font-weight: bold;
+	color: #3e4553;
+}
+
+table{
+	margin-bottom: 2em;
+	width: 100%;
+	border-collapse: collapse;
+	border: 1px solid #b0b0b0;
+	font-size: .95em;
+	text-align: center;
+}
+
+thead{
+	background-color: #DFDCD9;
+}
+
+tr{
+	border: 1px solid #b0b0b0;
+	height: 2.5em;
+}
+
+th, td {
+	vertical-align: middle;
+}
+
+th {
+	font-weight: bold;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:link {
+	margin-bottom: 2em;
+	color: #ffab32;
+}
+
+a:visited {
+	color: #9a600e;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+a:active {
+	color: #ff9b0e;
+}
+
+@media (max-width: 800px) {
+	
+	body {
+		font-size: .8em;
+	}
+
+	#main {
+		margin: 0 auto;
+		padding: 1.5em 1em;
+		padding-top: .0em;
+		width: 100%;
+		min-height: 100%;
+		background-color: #fff;
+		background-image: none;
+		border: none;
+	}
+	
+	h1 {
+		font-size: 1.3em;
+		line-height: 1.3em;
+	}
+	
+	h2 {
+		font-size: 1.3em;
+	}
+	
+	.soccer-ball-decoration {
+		position: relative;
+		display: inline-block;
+		margin: 0;
+		padding: 0;
+		width: 2em;
+		height: 2em;
+		left: 48%;
+		top: 2.3em;
+	}
+	
+	#img-div img {
+		display: block;
+		margin: 0 auto;
+		padding: 2em 0;
+		max-width: 15%;
+		max-height: 15%;
+	}
+	
+	th {
+		padding: .5em;
+	}
+	
+}
