@@ -29,7 +29,7 @@ body {
 	width: 45em;
 	min-height: 100%;
 	background: #fff;
-	background-image: url('https://www.dropbox.com/s/2gtnyidxw77lwv7/border-diagonal-left.png?raw=1'), url('https://www.dropbox.com/s/jvma9g37eev2ry9/border-diagonal-right.png?raw=1');
+	background-image: url('img/border-diagonal-left.png'), url('img/border-diagonal-right.png');
 	background-repeat: repeat-y, repeat-y;
 	background-position: left .5em top, right .5em top;
 	border-left: 1px solid #b0b0b0;
@@ -51,7 +51,7 @@ body {
 
 h1{
 	padding: 1em 0;
-	background-image: url('https://www.dropbox.com/s/l5xgknf2yl2lrvw/border-dot.png?raw=1'), url('https://www.dropbox.com/s/l5xgknf2yl2lrvw/border-dot.png?raw=1');
+	background-image: url('img/border-dot.png'), url('img/border-dot.png');
 	background-position: top, bottom;
 	background-repeat: repeat-x, repeat-x;
 	font-family: "PT Sans Narrow", Arial, Helvetica, sans-serif;
